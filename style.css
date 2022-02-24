@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./back2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    min-width: 100px;
+    height: 100px;
+    color: grey;
+    
+}
+.icon{
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    outline: transparent;
+    display: flex;
+    ;
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
