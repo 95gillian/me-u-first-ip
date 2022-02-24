@@ -4,25 +4,101 @@ body{
     background: url(./back2.jpg);
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
-.header{
+
+.header {
     min-width: 100px;
     height: 100px;
     color: grey;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-style: normal;
+
 }
+
+
+
 .icon{
     width: 200px;
     height: 220px;
     border-radius: 50%;
     outline: transparent;
     display: flex;
-    ;
+    border: 1 px solid gray;
+
     
 }
-.nav-links{
-    display: flex;
-    justify-content: flex-end;
-
+.icon:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    
 }
 
+.logo{
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+span{
+    color: #000;
+}
+nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 15px 15px;
+    margin: 5px;
+    margin-top: -50px;
+    float: right;
+    top: -100px;
+    font-weight: bold;
+}
+nav ul li a{
+    color: grey;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: blanchedalmond;
+    transition: 0.5;
+}
+.content{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+    
+
+    
+    
