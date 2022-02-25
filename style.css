@@ -142,3 +142,12 @@ button:hover{
     cursor: pointer;
     background-color: burlywood;
 }
+.skills{
+    width: 100%;
+    padding: 100px 0;
+    background-color: black;
+    color: gray;
+    letter-spacing: 2;
+    line-height: 30px;
+    font-size: large;
+}
