@@ -68,9 +68,26 @@ nav ul li a:hover{
     transition: 0.5;
 }
 .content{
+    position: absolute;
+    top: 50%;
+    right: 6%;
     
 }
+h4{
+    color:gray;
+    margin: 15px 0 15px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color: ghostwhite;
+}
+form input{
+    border: radius 20%;
+    padding: 6px;
+    box-shadow: wheat;
 
+}
 
 
 
