@@ -39,3 +39,74 @@ nav ul li a{
     font-weight: bold;
     text-transform: capitalize;
 }
+nav ul li a:hover{
+    color: whitesmoke;
+    transition: 0.5;
+
+}
+.button{
+    background-color: gray;
+    color: blanchedalmond;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 800;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .5;
+}
+.button:hover{
+    transform: scale(0.9);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h1{
+    color: grey;
+    margin: 20px 0 20px;
+    font-size: 55px;
+}
+h4{
+    color: ghostwhite;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+h3{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+}
+.fillin form{
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+
+}
+.fillin form:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px ;
+}
+.About{
+    width: 100%;
+    padding: 100px 0;
+    background-color: grey;
+
+}
+.About img{
+    width: 200px;
+    height: auto;
+}
+.about-me-text{
+    width: 400px;
+    
+}
+.main{
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
